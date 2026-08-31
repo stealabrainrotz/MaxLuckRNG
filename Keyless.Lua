@@ -8,7 +8,7 @@ local CoreGui = game:GetService("CoreGui")
 
 -- Supprime l'ancien UI si déjà présent
 if CoreGui:FindFirstChild("Frenx on Tiktok") then
-    CoreGui.bIssvqxwcUI:Destroy()
+    CoreGui.Frenx on Tiktok:Destroy()
 end
 
 -- ScreenGui Principal
