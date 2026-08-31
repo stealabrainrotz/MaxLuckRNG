@@ -1,8 +1,36 @@
---[[
-    ==================================================
-    b Issvqxwc — GUI Panel
-    ==================================================
---]]
+-- ============================
+--   Already Executed Check
+-- ============================
+
+-- Use getgenv() so the flag persists across re-executions in the same session
+if getgenv().ScriptAlreadyLoaded then
+
+    -- Play a notification sound to let the user know it's already running
+    local sound = Instance.new("Sound")
+    sound.SoundId = "rbxassetid://128438366056581a" -- replace with your own uploaded phonk clip's asset ID
+    sound.Volume = 1
+    sound.Parent = game:GetService("SoundService")
+    sound:Play()
+
+    -- Optional: on-screen notification too
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Already Executed",
+        Text = "This script is already running!",
+        Duration = 3
+    })
+
+    sound.Ended:Connect(function()
+        sound:Destroy()
+    end)
+
+    return -- stop the rest of the script from running again
+end
+
+getgenv().ScriptAlreadyLoaded = true
+
+-- ============================
+--   Your actual script below
+-- ============================
 
 local CoreGui = game:GetService("CoreGui")
 
