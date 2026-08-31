@@ -1,6 +1,6 @@
 --[[
     ==================================================
-    bIssvqxwcUI — GUI Panel
+    b Issvqxwc — GUI Panel
     ==================================================
 --]]
 
@@ -60,7 +60,7 @@ local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(1, -40, 1, 0)
 Title.Position = UDim2.new(0, 12, 0, 0)
 Title.BackgroundTransparency = 1
-Title.Text = "b Issvqxwc"
+Title.Text = "FRENX HUB"
 Title.TextColor3 = Color3.fromRGB(250, 250, 250)
 Title.TextSize = 14
 Title.Font = Enum.Font.GothamBold
