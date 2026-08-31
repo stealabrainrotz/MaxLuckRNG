@@ -1,19 +1,19 @@
 --[[
     ==================================================
-    Frenx on Tiktok — GUI Panel
+    bIssvqxwcUI — GUI Panel
     ==================================================
 --]]
 
 local CoreGui = game:GetService("CoreGui")
 
 -- Supprime l'ancien UI si déjà présent
-if CoreGui:FindFirstChild("Frenx on Tiktok") then
+if CoreGui:FindFirstChild("bIssvqxwcUI") then
     CoreGui.bIssvqxwcUI:Destroy()
 end
 
 -- ScreenGui Principal
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "bIssvqxwcUI"
+ScreenGui.Name = "Frenx Hub"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = CoreGui
 
