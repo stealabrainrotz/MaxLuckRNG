@@ -7,7 +7,7 @@ if getgenv().ScriptAlreadyLoaded then
 
     -- Play a notification sound to let the user know it's already running
     local sound = Instance.new("Sound")
-    sound.SoundId = "rbxassetid://128438366056581a" -- replace with your own uploaded phonk clip's asset ID
+    sound.SoundId = "rbxassetid://128438366056581" -- replace with your own uploaded phonk clip's asset ID
     sound.Volume = 1
     sound.Parent = game:GetService("SoundService")
     sound:Play()
