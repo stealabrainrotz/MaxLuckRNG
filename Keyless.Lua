@@ -7,7 +7,7 @@ end
 
 -- ScreenGui Principal
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "Frenx Hub"
+ScreenGui.Name = "Frenxy Hub"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = CoreGui
 
@@ -75,12 +75,12 @@ Header.Parent = MainFrame
 local Title = Instance.new("TextLabel")
 Title.Name = "Title"
 
--- Width specifically for the Frenx Hub text
+-- Width specifically for the Frenxy Hub text
 Title.Size = UDim2.new(0, 115, 1, 0)
 Title.Position = UDim2.new(0, 12, 0, 0)
 
 Title.BackgroundTransparency = 1
-Title.Text = "Frenx Hub"
+Title.Text = "Frenxy Hub"
 Title.TextColor3 = Color3.fromRGB(250, 250, 250)
 Title.TextSize = 14
 Title.Font = Enum.Font.GothamBold
